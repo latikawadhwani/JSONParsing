@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="weka.core.converters.ArffSaver"/>
+<fullyQualifiedTypeName name="weka.classifiers.Evaluation"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="weka.classifiers.bayes.NaiveBayesMultinomialText"/>
+<fullyQualifiedTypeName name="weka.core.Attribute"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="weka.core.DenseInstance"/>
+<fullyQualifiedTypeName name="weka.classifiers.Classifier"/>
+<fullyQualifiedTypeName name="weka.classifiers.bayes.NaiveBayes"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="weka.core.converters.TextDirectoryLoader"/>
+<fullyQualifiedTypeName name="weka.filters.unsupervised.attribute.StringToWordVector"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.XPathType.Filter"/>
+<fullyQualifiedTypeName name="weka.filters.Filter"/>
+<fullyQualifiedTypeName name="weka.core.converters.ConverterUtils"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+</qualifiedTypeNameHistroy>

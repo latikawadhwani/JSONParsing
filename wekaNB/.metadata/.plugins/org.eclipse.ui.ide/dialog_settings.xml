@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.android.ide.eclipse.adt.package.feature:23.0.2.1259578"/>
+		<item value="com.objectaid.uml.addon:1.1.8"/>
+		<item value="com.objectaid.uml.cls:1.1.8"/>
+		<item value="com.objectaid.uml.seq:1.1.8"/>
+		<item value="org.eclipse.cdt.gdb:7.0.0.201202111925"/>
+		<item value="org.eclipse.cdt:8.0.2.201202111925"/>
+		<item value="org.eclipse.egit.import:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.egit:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.emf.codegen.ecore.ui:2.10.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.codegen.ecore:2.10.2.v20150123-0452"/>
+		<item value="org.eclipse.emf.codegen.ui:2.8.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.codegen:2.10.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.common.ui:2.9.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.common:2.10.1.v20150123-0348"/>
+		<item value="org.eclipse.emf.converter:2.10.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.databinding.edit:1.4.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.databinding:1.4.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.ecore.edit:2.9.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.ecore.editor:2.10.1.v20150123-0452"/>
+		<item value="org.eclipse.emf.ecore:2.10.2.v20150123-0348"/>
+		<item value="org.eclipse.emf.edit.ui:2.10.2.v20150123-0452"/>
+		<item value="org.eclipse.emf.edit:2.10.1.v20150123-0452"/>
+		<item value="org.eclipse.emf.mapping.ecore.editor:2.9.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.mapping.ecore:2.8.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.mapping.ui:2.8.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.mapping:2.8.0.v20150123-0452"/>
+		<item value="org.eclipse.emf:2.10.2.v20150123-0452"/>
+		<item value="org.eclipse.help:1.4.1.v20120912-144938-8R7xFOXFLWUl7PpNBh_HIGkb4"/>
+		<item value="org.eclipse.jgit:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.platform:4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7"/>
+		<item value="org.eclipse.rcp:4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="1320" key="DIALOG_WIDTH"/>
+		<item value="482" key="DIALOG_Y_ORIGIN"/>
+		<item value="628" key="DIALOG_HEIGHT"/>
+		<item value="940" key="DIALOG_X_ORIGIN"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
+</section>

@@ -1,0 +1,132 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.text.ParseException;
+
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+import weka.classifiers.Classifier;
+import weka.classifiers.bayes.NaiveBayes;
+import weka.core.Instances;
+
+
+public class mv {
+	public static void main(String args[])
+	{
+		try
+		{
+			readFile();
+	BufferedReader br=null;
+	br=new BufferedReader(new FileReader("C:\\Users\\Latika\\Desktop\\mv.arff"));
+	
+	Instances train=new Instances(br);
+	train.setClassIndex(train.numAttributes()-1);
+	
+	br.close();
+	
+	NaiveBayes nb=new NaiveBayes();
+	nb.buildClassifier(train);
+	
+	// Test the model
+    //Evaluation eTest = new Evaluation(data);
+   // eTest.evaluateModel(cModel, data);//pass testing data
+		}
+		catch(Exception ex)
+		{
+			
+		}
+	}
+	public static void readFile() throws org.json.simple.parser.ParseException
+	{
+		String str="";
+	try {
+		JSONParser parser = new JSONParser();
+		 
+		FileInputStream fis = new FileInputStream("C:\\Users\\Latika\\Desktop\\SWM-JSON\\part1\\MOvies\\finalList.json");
+		BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
+        
+		Object obj; 
+		
+		JSONObject jsonObj;
+		JSONObject obj1 ;
+          String line = reader.readLine();
+        
+          while(line != null){
+            
+             
+              obj=parser.parse(line);
+              jsonObj=(JSONObject) obj;
+             
+      			
+    			 
+    			 
+      			String Genre=(String)jsonObj.get("Genre");
+      			String Director=(String)jsonObj.get("Director"); 
+      			String Writer=(String)jsonObj.get("Writer");
+      			String Actors=(String)jsonObj.get("Actors");
+      			String[] s=Actors.split(",");
+      			String PrimaryActor=s[0];
+      			String SecondaryActor=s[1];
+      			String Success=(String)jsonObj.get("Success");
+      			if(Genre.equals("N/A")|| Director.equals("N/A")|| Writer.equals("N/A") || PrimaryActor.equals("N/A")||SecondaryActor.equals("N/A"))
+      			{
+      			
+      			}
+      			else
+      			{
+      			 str=str+"'"+Director+"'"+","+"'"+PrimaryActor+"'"+","+"'"+SecondaryActor+"'"+","+"'"+Writer+"'"+","+"'"+Genre+"'"+","+"'"+Success+"'"+"\n";
+      			
+      			}
+      			
+      			  
+      		  
+      		
+      		  
+      		 line = reader.readLine();
+          }
+          writeToFile(str);   
+
+
+ 
+	} 
+	catch (FileNotFoundException e) 
+	{
+		e.printStackTrace();
+	} 
+	catch (IOException e)
+	{
+		e.printStackTrace();
+	} 
+	
+}
+     
+     public static void writeToFile(String line)
+     {
+    	
+      
+        	 
+        	 try(PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\Latika\\Desktop\\mv2.arff", true)))) {
+        		    out.println(line);
+        		}catch (IOException e) {
+        		    e.printStackTrace();
+        		}
+            
+        
+         catch (Exception ex)
+         {
+        	 ex.printStackTrace();
+         }
+             
+        
+ 
+     }
+}
+

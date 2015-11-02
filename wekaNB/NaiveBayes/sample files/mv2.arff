@@ -1,0 +1,44 @@
+@relation movies
+
+@Attribute Director string
+@Attribute Actor string
+@Attribute Writer string
+@Attribute Genre string
+@Attribute class {Yes,No}
+
+@Data
+
+'Tibor Takács','Patrick Muldoon','Joseph Farrugia','Sci-Fi','No'
+'Vladimir Teneslav','Florin Marza','Razvan Dumitru','Short','Yes'
+'H. Haile Chace','Arthur Howard','H. Haile Chace','Comedy','No'
+'Steven Spielberg','Leonardo DiCaprio','Jeff Nathanson','Biography','Yes'
+'Eric Lange','Julien Anton','Serge Bromberg','Documentary','Yes'
+'Larry Clark','Leo Fitzpatrick','Larry Clark','Drama','Yes'
+'Damian Lee','Gord Apolloni','Damian Lee','Drama','Yes'
+'P.J. Dillon','Allen Leech','Roger Karshan','Short','Yes'
+'Stuart Rosenberg','Paul Newman','Donn Pearce','Crime','Yes'
+'Akira Kurosawa','Toshirô Mifune','Ryûzô Kikushima','Crime','Yes'
+'Jirí Hanibal','Jirí Pleskot','Jirí Hanibal','Comedy','Yes'
+'Mark L. Lester','Mario Van Peebles','Jeffrey Goldenberg','Thriller','No'
+'Kevin Porter','Andrew Gordon','Kevin Porter','Short','Yes'
+'Don Chaffey','Todd Armstrong','Jan Read','Adventure','Yes'
+'Robert Altman','Andie MacDowell','Raymond Carver','Comedy','Yes'
+'Antti Jokinen','Laura Birn','Marko Leino','Crime','Yes'
+'Jack Pratt','Betty Brice','Daniel Carson Goodman','Drama','No'
+'Reginald Beck','Rex Harrison','W.E. Fairchild','Crime','Yes'
+'Edwin L. Marin','Robert Young','Frank Fenton','Comedy','Yes'
+'Radu Mihaileanu','Leïla Bekhti','Radu Mihaileanu','Comedy','Yes'
+'Jean Negulesco','Hope Lange','Edith R. Sommer','Drama','Yes'
+'Stuart Orme','Donald Sutherland','Robert A. Heinlein','Horror','Yes'
+'Doug Bollinger','Anthony Bradford','Anthony Bradford','Short','Yes'
+'Susanne Bier','Trine Dyrholm','Anders Thomas Jensen','Comedy','Yes'
+'Eskil Vogt','Ellen Dorrit Petersen','Eskil Vogt','Drama','Yes'
+'Michael Apted','Madeleine Stowe','Dana Stevens','Crime','Yes'
+'René Besson','Rachel Miner','James Portolese','Action','No'
+'Nick Reding','Ednah Daisy','Nick Reding','Comedy','Yes'
+'Michael Dowse','Paul Kaye','Michael Dowse','Comedy','Yes'
+'Jack Bender','Shannen Doherty','Kathleen Rowell','Drama','Yes'
+'Ridley Scott','Noomi Rapace','Jon Spaihts','Adventure','Yes'
+'Yolanda García Serrano','Loles León','Yolanda García Serrano','Comedy','Yes'
+'David Mackay','Jeremy London','Virginia Gilbert','Drama','Yes'
+'Matti Ijäs','Jarkko Pajunen','Juha Lehtola','Comedy','No'

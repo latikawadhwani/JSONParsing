@@ -1,0 +1,44 @@
+@relation movies
+
+@Attribute Director string
+@Attribute Actor string
+@Attribute Writer string
+@Attribute Genre string
+@Attribute Class {Yes,No}
+
+@Data
+
+'Vincent Scordia','Corey Feldman','Jeff Siegel','Comedy',?
+'Marion Hänsel','Stephen Rea','Nikos Kavvadias','Drama',?
+'Roxy Shih','Caitlin Gallogly','Roxy Shih','Short',?
+'Patrick Devaney','Gareth Anderson','Patrick Devaney','Short',?
+'LazRael Lison','Leslie Easterbrook','LazRael Lison','Horror',?
+'Cristobal Araus Lobos','Owen Black','John Argall','Western',?
+'Harold Trompetero','Diego Trujillo','Heidy Martinez','Drama',?
+'Walter Klenhard','Harry Hamlin','Walter Klenhard','Mystery',?
+'Mark Rydell','Richard Gere','David Rayfiel','Drama',?
+'Maris Martinsons','Valda Bickute','Maris Martinsons','Drama',?
+'Liam Kiernan','Seán Cullen','Liam Kiernan','Short',?
+'Mohit Ramchandani','Adrian Alita','Mohit Ramchandani','Short',?
+'Alex Garland','Alicia Vikander','Alex Garland','Drama',?
+'Patrick Poole','Wilford Brimley','Patrick Poole','Horror',?
+'Jonathan Sanger','Betty White','Lynn Roth','Comedy',?
+'Woody Allen','Jim Dunk','Woody Allen','Comedy',?
+'Jonathan Braucher','James R. Johnson','Jonathan Braucher','Short',?
+'Sokrates Kapsaskis','Vasilis Avlonitis','Nikos Tsiforos','Comedy',?
+'Dan Scanlon','Billy Crystal','Dan Scanlon','Animation',?
+'Farhad','Akshay Kumar','Farhad','Comedy',?
+'Aditya Datt','Aryeman Ramsay','Rajan Aggarwal','Comedy',?
+'Lilah Vandenburgh','Keira Leverton','Lilah Vandenburgh','Short',?
+'Andy Samberg','Andy Samberg','Andy Samberg','Short',?
+'Bryan Gunnar Cole','Elijah Wood','Robert Malkani','Drama',?
+'Carsten Unger','Sibylle Canonica','M. Reza Bahar','Crime',?
+'David Miller','John Wayne','Kenneth Gamet','Action',?
+'Kinji Fukasaku','Bunta Sugawara','Koichi Iiboshi','Crime',?
+'Michael Toshiyuki Uno','Guy Boyd','Gill Dennis','Drama',?
+'Paul Burch','Joe Gariffo','Paul Burch','Short',?
+'Nikos Grammatikos','Vangelis Mourikis','Nikos Grammatikos','Drama',?
+'Herman Yau','Man Sze Au','Kai Git Lai','Mystery',?
+'Christoffer Boe','Jens Albinus','Christoffer Boe','Drama',?
+'Raoul Ruiz','Bernard Giraudeau','Raoul Ruiz','Comedy',?
+'Wesley Ruggles','Richard Dix','Edna Ferber','Drama',?
